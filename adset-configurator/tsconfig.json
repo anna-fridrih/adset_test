@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "NodeNext",  // Измените на ESNext, чтобы поддерживать `import.meta`
+    "moduleResolution": "NodeNext",  // Убедитесь, что используется node для разрешения модулей
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "types": ["node", "jest", "supertest"],
+    "strictNullChecks": true,
+    "noImplicitReturns": true
+  },
+  "include": ["src", "src/**/*", "src/types/*"],
+  "exclude": ["node_modules"]
+}
