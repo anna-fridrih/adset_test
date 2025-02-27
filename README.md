@@ -38,7 +38,8 @@ npm install
 
 Once the dependencies are installed, you can build the project and start the development server:
 
-npm run build && npm run dev
+npm run build
+npm run dev
 
 This will compile the TypeScript code and start the server in development mode.
 
